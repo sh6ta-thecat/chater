@@ -20,9 +20,20 @@
             <br>
             <br>
 
-            Mira aqui hay una barra de busqueda.
-            <form action="" method="get">
+            Mira aqui hay una barra de busqueda.<br>
+            <form id="searchForm">
+        <label for="keyword">Ingrese su palabra clave:</label>
+        <input type="text" id="keyword" name="keyword">
+        <button type="submit">Buscar</button>
+    </form>
+            
               Y aqui estan los resultados.
-</form></span></div></div></div>
+              <ul id="searchResults"></ul>
+          
+          
+          </span></div></div></div>
+
+
+    <script src="results.js"></script>
   </body>
 </html>
